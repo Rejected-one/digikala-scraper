@@ -1,5 +1,4 @@
-### Unified README.md (English & Persian)
-```markdown
+
 # 🖥️ Digikala Laptop Scraper / استخراج لپ‌تاپ از دیجی‌کالا
 
 ![Application Preview](screenshot.png)
@@ -18,22 +17,25 @@
   - Excel export with download button
 
 ### 🚀 Quick Start
-```bash
-# Install dependencies
-pip install selenium streamlit openpyxl pandas psutil requests
 
+# Install dependencies
+
+```bash
+pip install selenium streamlit openpyxl pandas psutil requests
+```
 # Launch application
+```bash
 streamlit run project_1.py
 ```
 
-### 🧠 Core Components
+🧠 Core Components
 | File | Purpose |
 |------|---------|
 | `project_1.py` | Main application logic |
 | `selenium_setting.py` | Browser automation |
 | `kill_browser.py` | Process management |
 
----
+
 
 ## 📚 فارسی / Persian Documentation
 
@@ -49,11 +51,12 @@ streamlit run project_1.py
   - خروجی اکسل با دکمه دانلود
 
 ### 🚀 راه‌اندازی سریع
-```bash
 # نصب پیش‌نیازها
+```bash
 pip install selenium streamlit openpyxl pandas psutil requests
-
+```
 # اجرای برنامه
+```bash
 streamlit run project_1.py
 ```
 
